@@ -6,6 +6,10 @@ public class Vehicle {
     private int wheel;
     private int seat;
 
+    public Vehicle(String vehicle_no) {
+        this.vehicleNo = vehicle_no;
+    }
+
     public Vehicle(String vehicle_no, String color, int wheel, int seat) {
     }
 
